@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: sans-serif;
+}
+  
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+.finder {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+app-bar {
+    display: block;
+    padding: 16px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.search-bar {
+    max-width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    position: sticky;
+    top: 10px;
+    background-color: white;
+}
+
+#searchElement {
+    width: 75%;
+    padding: 16px;
+    border-radius: 5px;
+}
+body{
+	background-image: url('../gambar/Abstract\ 01.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#searchButtonElement{
+    width: 25%;
+    margin-left: 25px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    background-color: #ffbb00;
+    border-radius: 5px;
+}
+#restaurantList {
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+.restaurant {
+    margin-bottom: 18px;
+    box-shadow: 0 4px 8px 5px #fca903;
+    color: #f0f5f1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+.restaurant .info-restaurant {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+  
+.restaurant-info {
+    padding: 24px;
+}
+  
+.restaurant-info > h2 {
+    font-weight: lighter;
+}
+  
+.restaurant-info > p {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+}
